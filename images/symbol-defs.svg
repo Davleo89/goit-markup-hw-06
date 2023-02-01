@@ -1,6 +1,12 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-    <symbol id="icon-correo" viewBox="0 0 32 32">
+<symbol id="icon-checkbox-checked" viewBox="0 0 16 16">
+<path d="M14 0h-12c-1.1 0-2 0.9-2 2v12c0 1.1 0.9 2 2 2h12c1.1 0 2-0.9 2-2v-12c0-1.1-0.9-2-2-2zM7 12.414l-3.707-3.707 1.414-1.414 2.293 2.293 4.793-4.793 1.414 1.414-6.207 6.207z"></path>
+</symbol>
+<symbol id="icon-checkbox-unchecked" viewBox="0 0 16 16">
+<path d="M14 0h-12c-1.1 0-2 0.9-2 2v12c0 1.1 0.9 2 2 2h12c1.1 0 2-0.9 2-2v-12c0-1.1-0.9-2-2-2zM14 14h-12v-12h12v12z"></path>
+</symbol>
+<symbol id="icon-correo" viewBox="0 0 32 32">
 <path d="M26.667 5.333h-21.333c-1.467 0-2.653 1.2-2.653 2.667l-0.013 16c0 1.467 1.2 2.667 2.667 2.667h21.333c1.467 0 2.667-1.2 2.667-2.667v-16c0-1.467-1.2-2.667-2.667-2.667zM26.133 11l-9.427 5.893c-0.427 0.267-0.987 0.267-1.413 0l-9.427-5.893c-0.333-0.213-0.533-0.573-0.533-0.96 0-0.893 0.973-1.427 1.733-0.96l8.933 5.587 8.933-5.587c0.76-0.467 1.733 0.067 1.733 0.96 0 0.387-0.2 0.747-0.533 0.96z"></path>
 </symbol>
 <symbol id="icon-telfono" viewBox="0 0 32 32">

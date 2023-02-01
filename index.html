@@ -67,8 +67,7 @@
                   <use href="./images/symbol-defs.svg#icon-x"></use>
                 </svg>
               </button>
-              <div class="form-contact">
-                <h2 class="tittle-modal">Deje su datos, nos contactaremos con usted</h2>
+                <p class="tittle-modal">Deje su datos, nos contactaremos con usted</p>
                 <div class="form-user">
                   <form class="form" action="">
                     <div class="container-form">
@@ -107,23 +106,23 @@
                       </label>
                       <label class="label feedback">
                         Comentario
-                        <div class="box-textarea">
-                          <textarea name="feedback" placeholder="Introduzca el texto"></textarea>
-                        </div>
+                        <textarea name="feedback" placeholder="Introduzca el texto"></textarea>
                       </label>
                     </div>
-                    <div class="container-term">
-                      <label class="check">
-                        <input type="checkbox" name="" />
-                        Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
-                      </label>
+                    <div class="form-field">            
+                      <label >              
+                      <input type="checkbox" class="form-input" />              
+                      <svg width="16" height="15" class="checkbox-icon">               
+                       <use href="./images/checkbox-unchecked.svg#icon-checkbox-unchecked"></use>            
+                        </svg>              
+                      <span class="term">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</span   >            
+                      </label>          
                     </div>
                     <div class="container-btn">
                       <button class="btn-send" type="submit">Enviar</button>
                     </div>
                   </form>
                 </div>
-              </div>
             </div>
           </div>
         </div>
@@ -518,17 +517,17 @@
           </ul>
         </div>
         <div class="boletin">
-          <h3 class="tittle-boletin">SUSCRIBASE AL BOLETIN INFORMATIVO</h3>
-          <div class="box-boletin">
+          <p class="tittle-boletin">SUSCRIBASE AL BOLETIN INFORMATIVO</p>
             <form name="signup_form" autocomplete="on" novalidate class="form-boletin">
               <label class="box-mail">
                 <input class="input-mail" type="email" name="email" placeholder="Correo Electrónico"/>
               </label>
-              <button class="btn-suscribe" type="submit">Suscríbase <span class="btn-enviar"><svg class="icon-enviar" width="24" height="24">
+              <button class="btn-suscribe" type="submit">Suscríbase
+                <svg class="icon-enviar" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-enviar"></use>
-              </svg></span></button>
+              </svg>
+            </button>
             </form>
-          </div>
         </div>
       </div>
     </footer>
